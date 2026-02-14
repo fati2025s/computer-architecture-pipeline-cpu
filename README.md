@@ -75,13 +75,10 @@ The design has been rigorously tested using custom assembly programs. The wavefo
 ```bash
 git clone https://github.com/fati2025s/computer-architecture-pipeline-cpu.git
 
-```bash
 iverilog -g2012 -o processor.out *.sv
 
-```bash
 vvp processor.out
 
-```bash
 gtkwave Processor_waves.vcd
 
 
